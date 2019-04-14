@@ -1,10 +1,7 @@
 <template>
   <div id="app">
-      <h1>vue-ssr</h1>
-      <!-- <img src="@/assets/img/logo.png" alt=""> -->
-      <router-link class="link" to="/home">to home</router-link>
-      <router-link class="link" to="/index">to index</router-link>
-      <router-view class="view"></router-view>
+    <img src="./assets/logo.png">
+    <router-view/>
   </div>
 </template>
 
@@ -15,7 +12,12 @@ export default {
 </script>
 
 <style>
-.link {
-  margin-right: 10px;
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
 </style>

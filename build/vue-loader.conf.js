@@ -9,7 +9,7 @@ const sourceMapEnabled = isProduction
 module.exports = {
   loaders: utils.cssLoaders({
     sourceMap: sourceMapEnabled,
-    extract: false  // 服务器端渲染会自动将CSS内置。如果使用该extract，则会引入link标签载入CSS，从而导致相同的CSS资源重复加载
+    extract: isProduction
   }),
   cssSourceMap: sourceMapEnabled,
   cacheBusting: config.dev.cacheBusting,
