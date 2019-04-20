@@ -4,10 +4,10 @@
         <planet data-swiper-parallax="-16.5%" data-swiper-parallax-duration="300"></planet>
 
         <div class="sound" @click="soundplay">
-            <audio muted autoplay loop src="/static/sound/02.mp3"></audio>
+            <audio muted autoplay loop src="./static/sound/02.mp3"></audio>
         </div>
         <div class="bell">
-            <audio preload src="/static/sound/03.mp3"></audio>
+            <audio preload src="./static/sound/03.mp3"></audio>
         </div>
         
         <meteor data-swiper-parallax="-20%"></meteor>
@@ -78,7 +78,7 @@ export default {
                     transitionEnd(){
                         let bell = document.querySelector('.bell audio')
                         bell.currentTime = 0;
-                        if(this.activeIndex == 1 || this.activeIndex==2 || this.activeIndex==5){
+                        if(this.activeIndex!=3){
                             setTimeout(() => {
                                 bell.play()
                             }, 400) 
@@ -133,7 +133,7 @@ export default {
 .sound{
     width: .6rem;
     height: .6rem;
-    background: url('/static/images/open.png');
+    background: url('../../assets/images/commom/open.png');
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: .6rem .6rem;
@@ -155,7 +155,7 @@ export default {
     height: .6rem;
     background-repeat: no-repeat;
     background-position: 0 0;
-    background: url('/static/images/close.png');
+    background: url('../../assets/images/commom/close.png');
     background-size: .6rem .6rem;
     animation-play-state: paused;
     -webkit-animation-play-state: paused;
