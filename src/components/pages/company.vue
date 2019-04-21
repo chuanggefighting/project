@@ -12,10 +12,10 @@
         <div class="textinfo first">
             <div class="ani-info ani" swiper-animate-effect="changeshow" swiper-animate-duration="1.5s" swiper-animate-delay="1s">
                 <div>
-                    <p class="h2">郑州云景科技</p>
+                    <p class="h2">创智汇</p>
                     <br>
-                    <p>时间：2015.7 -- 2017.8</p>
-                    <p>项目：企业站、商城站</p>
+                    <p>时间：2016.7 -- 2017.8</p>
+                    <p>项目：商城网站</p>
                     <p>技术：React、Bootstrap、juicer、Gulp、Scss、Git</p>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                 <div>
                     <p class="h2">Autodesk</p>
                     <br>
-                    <p>时间：2017.7 -- 至今</p>
+                    <p>时间：2018.7 -- 至今</p>
                     <p>项目：代码测试平台</p>
                     <p>技术：Vue、ElementUI、Webpack、Three.js、Ace</p>
                 </div>
