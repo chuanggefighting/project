@@ -45,7 +45,7 @@ export default {
     },
     methods:{
         gomap(){
-            this.$router.push('/homemap')
+            // this.$router.push('/homemap')
         }
     },
     mounted() {
