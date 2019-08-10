@@ -45,32 +45,32 @@ export default {
     .parallax {
         position: absolute;
         top: 50%;
-        right: 0rem;
-        margin-top: -3.45rem;
-        width: 3.88rem;
-        height: 6.4rem;
+        right: 0;
+        margin-top: -345px;
+        width: 388px;
+        height: 640px;
         .Venus {
             position: absolute;
             top: 0;
             left: 0;
-            width: 3.88rem;
-            height: 6.4rem;
-            background: url('../../assets/images/star/Venus.png')no-repeat 50%/3.88rem 6.4rem; // background: blue;
+            width: 388px;
+            height: 640px;
+            background: url('../../assets/images/star/Venus.png')no-repeat 50%/388px 640px; // background: blue;
             div {
-                width: 1.31rem;
-                height: 1.87rem;
+                width: 130px;
+                height: 187px;
                 position: absolute;
                 p {
                     text-align: center;
                     color: #fff;
                     text-shadow: 0px 0px 4px #00fcff;
-                    font-size: .2rem;
+                    font-size: 20px;
                     font-weight: 300;
                 }
                 .wr {
-                    background: url('../../assets/images/commom/comser.png')no-repeat center center/4rem 2rem;
-                    width: 1rem;
-                    height: 1rem;
+                    background: url('../../assets/images/commom/comser.png')no-repeat center center/400px 200px;
+                    width: 100px;
+                    height: 100px;
                     position: absolute;
                     left: 0;
                     right: 0;
@@ -89,31 +89,31 @@ export default {
                     &.#{$item} {
                         .#{$item}-div {
                             position: relative;
-                            width: 1.3rem;
-                            height: 1.3rem;
-                            background: url('../../assets/images/commom/#{$item}.png')no-repeat 50%/1.3rem 1.3rem;
+                            width: 130px;
+                            height: 130px;
+                            background: url('../../assets/images/commom/#{$item}.png') no-repeat 50%/130px 130px;
                         }
                     }
                 }
                 &.pay {
-                    top: -1.18rem;
-                    left: 1.2rem;
+                    top: -118px;
+                    left: 120px;
                 }
                 &.media {
-                    top: -.2rem;
-                    left: -.5rem;
+                    top: -20px;
+                    left: -50px;
                 }
                 &.marketing {
-                    top: 2.4rem;
-                    left: -1.2rem;
+                    top: 240px;
+                    left: -120px;
                 }
                 &.ops {
-                    top: 5rem;
-                    left: -.6rem;
+                    top: 500px;
+                    left: -60px;
                 }
                 &.tag {
-                    top: 6rem;
-                    left: 1.2rem;
+                    top: 600px;
+                    left: 120px;
                 }
             }
         }
@@ -121,19 +121,19 @@ export default {
 
     .comsch {
         position: absolute;
-        top: .38rem;
-        left: .5rem;
-        font-size: .3rem;
+        top: 38px;
+        left: 50px;
+        font-size: 36px;
         color: #6fb1bd;
         &:after {
             content: '';
             position: absolute;
-            left: -.16rem;
+            left: -20px;
             top: 50%;
-            margin-top: -.1rem;
+            margin-top: -10px;
             width: 0;
             height: 0;
-            border-width: .1rem;
+            border-width: 10px;
             border-style: solid;
             border-color: transparent transparent transparent #FFF;
         }

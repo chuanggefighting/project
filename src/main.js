@@ -1,10 +1,8 @@
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-import Vue from 'vue'
-import App from './App'
-import router from './router'
+import Vue from "vue";
+import App from "./App.vue";
+import router from "./router";
+import store from "./store";
 
-// https://www.npmjs.com/package/vue-awesome-swiper
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
 Vue.use(VueAwesomeSwiper)
@@ -15,37 +13,10 @@ if (process.browser) {
   Vue.use(VueAwesomeSwiper)
 }
 
-// 组件局部引用 (can't work in Nuxt.js/SSR)
-// import { swiper, swiperSlide } from 'vue-awesome-swiper'
+Vue.config.productionTip = false;
 
-// export default {
-//   components: {
-//     swiper,
-//     swiperSlide
-//   }
-// }
-
-
-
-Vue.config.productionTip = false
-
-// router.beforeEach((to, from, next) => {
-//     let flag = IsPC()
-//     if (to.path != '/verystar' && flag) {
-//         next('/verystar')
-//     } else if(to.path == '/verystar' && !flag){
-//         next('/')
-//     } else {
-//         next()
-//     }
-// })
-
-
-/* eslint-disable no-new */
 new Vue({
-  el: '#app',
   router,
-  components: { App },
-  template: '<App/>'
-})
-
+  store,
+  render: h => h(App)
+}).$mount("#app");

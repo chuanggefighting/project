@@ -43,37 +43,38 @@ export default {
 .tachnology {
     .personal {
         position: absolute;
-        top: .38rem;
-        left: .5rem;
-        font-size: .3rem;
+        top: 30px;
+        left: 60px;
+        font-size: 36px;
         color: #6fb1bd;
         &:after {
             content: '';
             position: absolute;
-            left: -.16rem;
+            left: -24px;
             top: 50%;
-            margin-top:-.1rem;
+            margin-top: -10px;
             width: 0;
             height: 0;
-            border-width: .1rem;
+            border-width: 10px;
             border-style: solid;
             border-color: transparent transparent transparent #FFF;
         }
     }
     .Mercury {
         position: absolute;
-        top: .6rem;
-        right: 0rem;
-        width: 2.51rem;
-        height: 3.48rem;
-        background: url('../../assets/images/star/Mercury.png')no-repeat 50%/2.51rem 3.48rem;
+        top: 60px;
+        right: 0;
+        width: 250px;
+        height: 350px;
+        background: url('../../assets/images/star/Mercury.png')no-repeat 50%/250px 350px;
     }
     .textinfo {
         position: absolute;
-        width: 5rem;
-        height: 3.8rem;
-        left: .4rem;
-        top: 4.2rem;
+        width: 610px;
+        height: 400px;
+        left: 40px;
+        top: 50%;
+        transform: translateY(-50%);
         overflow: hidden;
         .ani-info {
             position: absolute;
@@ -85,16 +86,16 @@ export default {
             height: 100%;
             overflow: hidden;
             box-sizing: border-box;
-            margin: auto; // animation: changeshow 3s forwards;
-            background:url('../../assets/images/commom/comser.png')no-repeat 50%/100% 100%;
+            margin: auto;   // animation: changeshow 3s forwards;
+            background: url('../../assets/images/commom/comser.png') no-repeat 50%/100% 100%;
             opacity: .9;
             ul {
-                padding-top: .16rem;
+                padding-top: 20px;
                 li {
-                    line-height: .5rem;
-                    font-size: .2rem;
-                    text-indent: .34rem;
-                    text-shadow: 0px 0px 4px #00fcff;
+                    line-height: 50px;
+                    font-size: 26px;
+                    text-indent: 30px;
+                    text-shadow: 0px 0px 8px #00fcff;
                     color: #fff;
                     font-weight: 300;
                 }
@@ -103,3 +104,5 @@ export default {
     }
 }
 </style>
+
+

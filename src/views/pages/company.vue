@@ -63,80 +63,81 @@ export default {
 .company {
     .Neptune {
         position: absolute;
-        top: .4rem;
-        left: 0rem;
-        width: 3.58rem;
-        height: 6.7rem;
-        background: url('../../assets/images/star/Neptune.png')no-repeat 50%/3.58rem 6.7rem;
+        top: 40px;
+        left: 0;
+        width: 400px;
+        height: 800px;
+        background: url('../../assets/images/star/Neptune.png')no-repeat 50%/400px 800px;
     }
 
     .cominfo {
         position: absolute;
-        top: .38rem;
-        right: .5rem;
-        font-size: .3rem;
+        top: 40px;
+        right: 60px;
+        font-size: 32px;
         color: #6fb1bd;
         transform-style: preserve-3d;
-        transform: translateZ(100rem);
+        transform: translateZ(10000px);
         z-index: 9999;
         &:after {
             content: '';
             position: absolute;
-            right: -.16rem;
+            right: -20px;
             top: 50%;
-            margin-top: -.1rem;
+            margin-top: -12px;
             width: 0;
             height: 0;
-            border-width: .1rem;
+            border-width: 12px;
             border-style: solid;
             border-color: transparent #FFF transparent transparent;
         }
     }
     .textinfo {
-        width: 4rem;
-        height: 2.4rem; // background: blue;
-        left: 0;
-        right: 0;
-        margin: auto;
+        width: 600px;
+        height: 260px;
+        overflow: hidden;
+        opacity: .9;
         position: absolute;
-        &.first{
-           top: 1rem; 
-        }
-        &.second{
-            top: 50%;
-            margin-top: -1.2rem;
-        }
-        &.third{
-            bottom: 1rem;
-        }
+        left: 50%;
+        transform: translateX(-50%);
+        
         .ani-info {
             position: absolute;
             left: 0;
             right: 0;
             bottom: 0;
             top: 0;
-            width: 100%;
+            width: 600px;
             height: 100%;
+            margin: auto;
             overflow: hidden;
-            box-sizing: border-box; // padding: .25rem 0 0 .35rem;
-            margin: auto; // animation: changeshow 3s forwards;
             background: url('../../assets/images/commom/show.png')no-repeat 50%/100% 100%;
-            opacity: .9;
-            div {
-                padding: .25rem 0 0 .3rem;
-                box-sizing: border-box;
+            div{
+                padding: 20px 0 0 30px;
+                box-sizing: border-box;  
                 p {
-                    font-size: .22rem;
-                    text-shadow: 0px 0px 4px #00fcff;
-                    letter-spacing: .05em;
-                    line-height: .33rem;
+                    font-size: 24px;
+                    text-shadow: 0px 0px 8px #00fcff;
+                    letter-spacing: 10px;
+                    line-height: 40px;
                     color: #fff;
                     font-weight: 300;
                     &.h2{
-                        font-size: .3rem;
+                        font-size: 28px;
                     }
                 }
             }
+        }
+        
+        &.first{
+           top: 100px; 
+        }
+        &.second{
+            top: 50%;
+            margin-top: -1.2rem;
+        }
+        &.third{
+            bottom: 100px;
         }
     }
 }

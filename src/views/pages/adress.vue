@@ -58,9 +58,9 @@ export default {
     .parallax {
         position: absolute;
         width: 100%;
-        height: 3.87rem;
-        bottom: 0rem;
-        left: 0rem;
+        height: 390px;
+        bottom: 0;
+        left: 0;
         right: 0;
         margin: auto;
     }
@@ -69,16 +69,16 @@ export default {
         left: 0;
         top: 0;
         width: 100%;
-        height: 3.87rem;
-        background: url('../../assets/images/star/earth.png')no-repeat 50%/120% 3.87rem;
+        height: 390px;
+        background: url('../../assets/images/star/earth.png')no-repeat 50%/120% 390px;
     }
     .text-info {
         position: absolute;
-        width: 4.29rem;
-        height: 4rem;
+        width: 500px;
+        height: 540px;
         left: 0;
         right: 0;
-        top: 1.8rem;
+        top: 180px;
         margin: auto; // background: red;
         .adresstext {
             position: absolute;
@@ -91,35 +91,35 @@ export default {
             margin: auto;
             overflow: hidden;
             box-sizing: border-box;
-            background: url('../../assets/images/commom/adressmask.png')no-repeat 50%/4.29rem 3.99rem;
+            background: url('../../assets/images/commom/adressmask.png') no-repeat 50%/500px 540px;
             .personal-info {
                 // color: #b9c4c8;
                 opacity:.9;
                 
                 box-sizing: border-box;
-                padding: .2rem 0 0 .26rem;
+                padding: 20px 0 0 26px;
                 li{
-                    line-height: .4rem;
-                    margin-bottom: .12rem;
+                    line-height: 54px;
+                    margin-bottom: 20px;
                     h3 {
-                        font-size: .22rem;
+                        font-size: 34px;
                         color: #51b3cf;
                         font-weight: 800;
                         text-shadow: initial;
                     }
                     span, a {
                         color: #fff;
-                        font-size: .22rem;
+                        font-size: 30px;
                         font-weight: 300;
                         text-shadow: 0px 0px 4px #00fcff;
                     }
                     .map {
+                        margin-left: 15px;
                         display: inline-block;
-                        width: 0.19rem;
-                        height: 0.25rem;
-                        background: url('../../assets/images/page/adress.png') no-repeat 50%/.19rem 0.25rem;
-                        vertical-align: -.03rem;
-                        padding-left: .1rem;
+                        width: 25px;
+                        height: 30px;
+                        background: url('../../assets/images/page/adress.png') no-repeat 50%/25px 30px;
+                        vertical-align: -4px;
                     }
                 }
             }

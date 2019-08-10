@@ -54,39 +54,39 @@ export default {
         right: 0;
         left: 0;
         margin: auto;
-        bottom: 0.56rem;
-        font-size: .2rem;
+        bottom: 80px;
+        font-size: 28px;
         color: #fff;
         text-align: center;
-        text-shadow: 0px 0px 4px #00fcff;
+        text-shadow: 0px 0px 8px #00fcff;
         transform-style: preserve-3d;
-        transform: translate3d(0, 0, 30rem);
+        transform: translate3d(0, 0, 3000px);
         z-index: 999;
     }
     .logo {
         position: absolute;
-        right: 0.26rem;
-        top: 0.34rem;
-        width: 1.6rem;
-        height: 0.41rem;
-        background: url('../../assets/images/page/logo.png') no-repeat center center/1.6rem .41rem;
+        right: 30px;
+        top: 40px;
+        width: 160px;
+        height: 40px;
+        background: url('../../assets/images/page/logo.png') no-repeat center center/160px 40px;
     }
     .sun {
-        width: 6.4rem;
-        height: 5.93rem;
-        right: 0rem;
-        top: -1.2rem;
+        width: 640px;
+        height: 590px;
+        right: 0;
+        top: -120px;
         position: absolute;
         z-index: 0;
-        background: url('../../assets/images/page/sun1.png') no-repeat center center/6.4rem 5.93rem;
+        background: url('../../assets/images/page/sun1.png') no-repeat center center/640px 590px;
     }
     .Jupiter {
-        width: 7rem;
-        height: 7rem;
+        width: 700px;
+        height: 700px;
         transform-style: preserve-3d;
         position: absolute;
-        top: -.88rem;
-        right: -1.6rem;
+        top: -88px;
+        right: -160px;
         transform: rotateX(78deg) rotateY(42deg) rotateZ(0);
         border: 2px solid #576d81;
         animation: move1x 60s linear infinite;
@@ -101,12 +101,12 @@ export default {
     }
     .Jupiter-ball {
         position: absolute;
-        width: .42rem;
-        height: .5rem;
-        background: url('../../assets/images/page/Jupiter.png') no-repeat 50%/.42rem .5rem;
-        bottom: -.3rem;
+        width: 40px;
+        height: 50px;
+        background: url('../../assets/images/page/Jupiter.png') no-repeat 50%/40px 50px;
+        bottom: -30px;
         left: 50%;
-        margin-left: -.25rem;
+        margin-left: -25px;
         transform: rotateX(90deg) rotateY(0) rotateZ(-120deg) translate3d(0, 0, 0rem);
         z-index: 1;
         animation: move1y 60s linear infinite;
@@ -114,16 +114,16 @@ export default {
 
     @keyframes move1y {
         to {
-            transform: rotateX(90deg) rotateY(360deg) rotateZ(240deg) translate3d(0, 0, 0rem);
+            transform: rotateX(90deg) rotateY(360deg) rotateZ(240deg) translate3d(0, 0, 0);
         }
     }
     .Saturn {
-        width: 11rem;
-        height: 11rem;
+        width: 1100px;
+        height: 1100px;
         transform-style: preserve-3d;
         position: absolute;
-        top: -2.8rem;
-        right: -3.2rem;
+        top: -280px;
+        right: -320px;
         transform: rotateX(78deg) rotateY(42deg) rotateZ(100deg);
         border: 3px solid #576d81;
         animation: move2x 55s linear infinite;
@@ -138,12 +138,12 @@ export default {
     }
     .Saturn-ball {
         position: absolute;
-        width: .65rem;
-        height: .72rem;
-        background: url('../../assets/images/page/Saturn.png') no-repeat 50%/.6rem .72rem;
-        bottom: -.45rem;
+        width: 65px;
+        height: 72px;
+        background: url('../../assets/images/page/Saturn.png') no-repeat 50%/65px 75px;
+        bottom: -45px;
         left: 50%;
-        margin-left: -.25rem;
+        margin-left: -25px;
         transform: rotateX(-90deg) rotateY(100deg) rotateZ(0deg);
         z-index: 1;
         animation: move2y 55s linear infinite;
@@ -155,12 +155,12 @@ export default {
         }
     }
     .Uranus {
-        width: 15rem;
-        height: 15rem;
+        width: 1500px;
+        height: 1500px;
         transform-style: preserve-3d;
         position: absolute;
-        top: -4.4rem;
-        right: -4.8rem;
+        top: -440px;
+        right: -480px;
         transform: rotateX(76deg) rotateY(40deg) rotateZ(50deg);
         border: 2px solid #576d81;
         animation: move3x 30s -10s linear infinite;
@@ -175,12 +175,12 @@ export default {
     }
     .Uranus-ball {
         position: absolute;
-        width: .91rem;
-        height: .98rem;
-        background: url('../../assets/images/page/Uranus.png') no-repeat 50%/.91rem .98rem;
-        bottom: -.8rem;
+        width: 90px;
+        height: 98px;
+        background: url('../../assets/images/page/Uranus.png') no-repeat 50%/90px 98px;
+        bottom: -80px;
         left: 50%;
-        margin-left: -.25rem;
+        margin-left: -25px;
         transform: rotateX(90deg) rotateY(-50deg) rotateZ(-240deg);
         z-index: 1;
         animation: move3y 30s -10s linear infinite;
@@ -192,12 +192,12 @@ export default {
         }
     }
     .Neptune {
-        width: 21rem;
-        height: 21rem;
+        width: 2100px;
+        height: 2100px;
         transform-style: preserve-3d;
         position: absolute;
-        top: -6.6rem;
-        right: -6.4rem;
+        top: -660px;
+        right: -640px;
         transform: rotateX(69deg) rotateY(38deg) rotateZ(30deg);
         border: 2px solid #576d81; // border-width:1px 0 0 0;
         // border-bottom: 0;
@@ -213,41 +213,41 @@ export default {
     }
     .Neptune-ball {
         position: absolute;
-        width: 2.14rem;
-        height: 2.14rem;
-        background: url('../../assets/images/page/Neptune.png') no-repeat 50%/2.14rem 2.14rem;
-        bottom: -1.5rem;
+        width: 214px;
+        height: 214px;
+        background: url('../../assets/images/page/Neptune.png') no-repeat 50%/214px 214px;
+        bottom: -150px;
         left: 50%;
-        margin-left: -.25rem;
-        transform: rotateX(90deg) rotateY(-30deg) rotateZ(60deg) translateY(0rem);
+        margin-left: -25px;
+        transform: rotateX(90deg) rotateY(-30deg) rotateZ(60deg) translateY(0);
         z-index: 100;
         animation: move4y 55s -20s linear infinite;
     }
 
     @keyframes move4y {
         to {
-            transform: rotateX(90deg) rotateY(40deg) rotateZ(180deg) translateY(-1rem);
+            transform: rotateX(90deg) rotateY(40deg) rotateZ(180deg) translateY(-100px);
         }
     }
     .textTheme {
         position: absolute;
-        top: 4rem;
+        top: 400px;
         left: 0;
         right: 0;
         text-align: center;
         z-index: 100;
         transform-style: preserve-3d;
-        transform: translateZ(30rem);
+        transform: translateZ(3000px);
         .star {
-            width: 6.42rem;
-            height: 1.95rem;
+            width: 640px;
+            height: 195px;
             position: absolute;
-            left: 0rem;
+            left: 0;
             right: 0;
-            top: -.3rem;
+            top: -30px;
             // bottom: 0;
             margin: auto;
-            background: url('../../assets/images/page/light.png') no-repeat 50%/6.42rem 1.95rem;
+            background: url('../../assets/images/page/light.png') no-repeat 50%/642px 195px;
             opacity: 0;
             z-index: -2;
         }
@@ -268,10 +268,10 @@ export default {
         }
         h2 {
             color: rgb(225, 225, 225);
-            font-size: .6rem;
-            line-height: 1rem;
+            font-size: 60px;
+            line-height: 100px;
             opacity: 0;
-            letter-spacing: .04rem;
+            letter-spacing: 4px;
         }
         .h_light {
             animation: opc 1.2s .2s forwards;

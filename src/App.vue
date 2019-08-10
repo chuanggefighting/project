@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import stoprotate from 'common/stoprotate'
+import stoprotate from 'components/stoprotate'
 export default {
   name: 'App',
   components: {
