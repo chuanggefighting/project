@@ -102,6 +102,9 @@ export default {
                 this.playAudio = false
             }
         }   
+    },
+    created(){
+        console.log(111111111)
     }
 }
 </script>

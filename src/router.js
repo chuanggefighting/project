@@ -1,12 +1,11 @@
 import Vue from "vue";
 import Router from "vue-router";
-import entrance from 'views/entry/entrance'
-import homemap from 'views/entry/homemap'
 
+const entrance = () => import("./views/entry/entrance.vue")
 Vue.use(Router);
 
 export default new Router({
-  mode: "history",
+  // mode: "history",
   base: process.env.BASE_URL,
   routes: [
     {
@@ -21,7 +20,8 @@ export default new Router({
     }, {
       path:'/homemap',
       name:'homemap',
-      component: homemap
+      component: () =>
+        import ('./views/entry/homemap.vue')
     }
   ]
 });
